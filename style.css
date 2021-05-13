@@ -5,6 +5,16 @@ body {
     font-family:sans-serif;
 }
 
+p {
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+h1{
+    color: white;
+    font-size: 90px;
+}
+
 .logo-navbar{
     max-width: 80px;
 }
@@ -36,19 +46,38 @@ body {
 }
 
 .cover{
+    color: #fff;
     background-color: rgb(154, 205, 50);
+    padding: 70px 0;
 }
 
 #overlay{
     color: white;
 }
 
-#first-button{
+#button{
     cursor: pointer;
-    border:1px  solid #292827;
+    border:1px  solid #f0eeeb;
     border-radius: 25px;
     background-color: rgb(154, 205, 50);
     color:#fff;
+}
+
+#button:hover{
+    background-color:rgb(56, 196, 44);
+
+}
+
+#second-button{
+    cursor: pointer;
+    border:1px  solid #1b1b1a;
+    border-radius: 25px;
+    background-color: #fff;
+    
+}
+
+#second-button:hover{
+    background-color: rgb(227, 230, 233);
 }
 
 hr{
@@ -70,8 +99,20 @@ hr{
     background-attachment: fixed;
 }
 
-
-h1{
-    color: white;
-    font-size: 80px;
+.content-1{
+    color: #fff;
+    background-color: rgb(12, 12, 12);
+    padding: 70px 0;
 }
+
+.content-2{
+    padding: 40px 0;
+}
+
+.contact{
+    color: #fff;
+    background-color: rgb(154, 205, 50);
+    padding: 70px 0;
+}
+
+
