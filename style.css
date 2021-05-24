@@ -77,7 +77,7 @@ h1{
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: rgb(233, 230, 230);
   color: black;
 }
 
