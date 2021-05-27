@@ -164,7 +164,7 @@ header .header-content .header-content-inner p {
 }
 
 .item-1{
-    background: url(images/apartment\ .png);
+    background: url(images/pexels-rakicevic-nenad-1274260.jpg);
 }
 
 .item-2{
@@ -179,7 +179,7 @@ header .header-content .header-content-inner p {
 .item-2,
 .item-3 {
 	background-size: cover;
-	background-position: 100% 100%;
+	background-position: 50% 50%;
 	}
 
 .promo,
@@ -196,6 +196,12 @@ header .header-content .header-content-inner p {
     height: 200px;
     line-height: 180px;
     text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255, 255, 255, 0.199);
+    line-height: 160px;
 }
 
 .content-1{
