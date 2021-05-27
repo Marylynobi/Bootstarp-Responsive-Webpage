@@ -163,6 +163,25 @@ header .header-content .header-content-inner p {
 
 }
 
+.item-1{
+    background: url(images/apartment\ .png);
+}
+
+.item-2{
+    background: url(images/pexels-thiszun-\(follow-me-on-ig-fb\)-1116302.jpg);
+}
+
+.item-3{
+    background: url(images/pexels-artem-beliaikin-1230665.jpg);
+}
+
+.item-1,
+.item-2,
+.item-3 {
+	background-size: cover;
+	background-position: 100% 100%;
+	}
+
 .content-1{
     color: #fff;
     background-color: rgb(12, 12, 12);
