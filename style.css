@@ -204,6 +204,12 @@ header .header-content .header-content-inner p {
     line-height: 160px;
 }
 
+.promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .content-1{
     color: #fff;
     background-color: rgb(12, 12, 12);
